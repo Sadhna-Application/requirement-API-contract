@@ -1,0 +1,59 @@
+SadhnaService
+
+Creating a new Sadhna Card ->
+
+POST http://localhost:8080/cards
+
+Request body : -
+
+{
+	"fieldA": "",
+	"filedB": "",
+	"fieldC" : ""
+}
+
+Response body(HTTP Status 201 - Created) : -
+
+{
+	"fieldA": "",
+	"filedB": "",
+	"fieldC" : ""
+}
+
+2 options - 1 -> Sending whole card that was saved in DB with a popup showing success message
+			2 -> Sending only the card Id and few other details with a success message
+			
+Editing today's Sadhna Card ->
+
+PUT http://localhost:8080/cards
+
+Request body : -
+
+{
+	"fieldA": "",
+	"filedB": "",
+	"fieldC" : ""
+}
+
+Response body(HTTP Status 201 - Created) : -
+
+{
+	"fieldA": "",
+	"filedB": "",
+	"fieldC" : ""
+}
+
+2 options - 1 -> Sending whole card that was saved in DB with a popup showing success message
+			2 -> Sending only the card Id and few other details with a success message
+			
+Getting a Sadhna Card for a previous date ->
+
+GET http://localhost:8080/cards/date/{dateValue}
+
+Response body : -
+
+{
+	"fieldA": "",
+	"filedB": "",
+	"fieldC" : ""
+}

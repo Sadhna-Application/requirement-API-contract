@@ -1,0 +1,19 @@
+Application V1
+
+Sadhna Card Service
+
+=====================================
+
+Login page - Devotee, Preacher, Admin
+
+Home Page - 2 buttons -> View Card, Create new card
+
+View Card -> Calendar should open to select date
+		  -> Once date is selected, search Sadhna cards for that date
+		  -> If card exists, display the whole card details otherwise a popup alert informing that no card exists for that day
+
+Create new card -> Should open up a form for entering the deatils required for the Sadhna card with a submit button or cancel button
+
+Edit card for today's date -> When user clicks on view card for today's date Sadhna card then Edit option should be enabled
+
+======================================
