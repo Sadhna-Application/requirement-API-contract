@@ -6,11 +6,58 @@ POST http://localhost:8080/cards
 
 Request body : -
 
+// Body (common data fields)
 {
-	"fieldA": "",
-	"filedB": "",
-	"fieldC" : ""
+	Name: "",
+	Email: "",
+	Wake up time : "",
+        Day Sleep : "",
+        Sleep : ""
+        Remarks:
+        { 
+          Wake Up time : "Frequent/Regular/Irregular"
+          Day Sleep:     "Frequent/Regular/Irregular"
+          Sleep:         "Frequent/Regular/Irregular"
+	}
+        Are You a Student: Y/N,                                                         // depending upon Y/N next page data and fields will popul
 }
+
+//Student Specific Data Fields :
+
+{
+    Average study Hours :  "" ,
+    Remarks : "Frequent/Regular/Irregular",
+    Any Help needed in studies: "" 
+},
+
+//Working Professional Specific Data Fields:
+
+{
+   Average office Hours: "",
+   office shift:  "A/B/C",
+   number of working days: "".
+  Any difficulty facing in job: ""
+},
+
+//Soul (common data fields)
+{
+ Japa rounds numbers: "",
+ japa starts at(time): "",
+ Japa finish at: "",
+ Shastra Reading hours: ,
+ Reading topic/book: "" ,
+ Hearing Hours: "",
+ Hearing Topics: "",
+ Morning Program:
+  {
+     Worship : ""Frequent/Regular/Irregular"",
+     Singing(guruvastkam): ""Frequent/Regular/Irregular""
+  }
+
+}
+
+
+// *************************************************************************************************************************************************************************************************************
 
 Response body(HTTP Status 201 - Created) : -
 
