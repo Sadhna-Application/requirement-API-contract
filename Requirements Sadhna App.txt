@@ -6,6 +6,10 @@ Sadhna Card Service
 
 Login page - Devotee, Preacher, Admin
 
+1st time login - Ask if Student or working professional, if working professional then are they studying
+
+Profile page - Name, Email, Phone number, Student/Professional, If professional then studying or not
+
 Home Page - 2 buttons -> View Card, Create new card
 
 View Card -> Calendar should open to select date
